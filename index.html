@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Write some text in textarea, text will appeared vertically on boxes in right area. 
+            New line in textarea will create a new column in boxes.Boxes are draggable!!">
+    <meta name="author" content="Ahtasham Himel">
+
+    <title>Vertical Text</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/core.css" type="text/css" />
+
+    <link rel="stylesheet" href="src/css/styles.css" type="text/css" />
+      
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">                
+                <a class="navbar-brand" href="#">Vertical Text</a>
+            </div>            
+        </div>
+        
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container-fluid">
+        <p> Write some text in textarea, text will appeared vertically on boxes in right area. 
+            New line in textarea will create a new column in boxes.Boxes are draggable!! </p>
+        <div class="row-fluid">
+            <div class="col-lg-4 col-md-5 text-center">
+                <textarea cols="35" rows="20" id="textarea" 
+                    placeholder = ''></textarea>
+                
+                    <p><span id="lineNo"></span> : <span id="colNo"></span></p>
+
+                    <button class="btn btn-primary" id="create">Create New Box</button>
+            </div>
+            <div class="col-lg-8 col-md-7">
+                <div id="parent_id"><div class="output currentOutput" id='output_0'></div></div>
+
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <script type="text/javascript" language="javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+   
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" language="javascript" src="src/js/scripts.js"></script>
+
+
+</body>
+
+</html>

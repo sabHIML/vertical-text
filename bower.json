@@ -1,0 +1,28 @@
+{
+  "name": "Vertical text",
+  "authors": [
+    "Ahtasham Himel <himel.46@gmail.com>"
+  ],
+  "description": "Convert text into vertical view.",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "css"
+  ],
+  "license": "none",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.11.4",
+    "bootstrap": "^3.3.6"
+  }
+}

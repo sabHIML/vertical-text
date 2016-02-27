@@ -1,0 +1,49 @@
+
+.output div
+{
+    font-size: 12px;
+    position: relative;
+    word-wrap: break-word;
+    width: .1em;
+}
+.output
+{
+    float: left;
+    border:1px solid #BBB;
+    background: #DDDDDD;
+    padding:20px;
+    width:auto;
+    height:auto;
+    border-radius: 4px;
+    margin : 2px;
+
+
+}
+#parent_id
+{
+    width:100%;
+    min-height:800px;
+    height: auto;
+    border:1px solid #CCCCCC;
+    padding: 10px;
+    background: #EEEEEE;
+    position: relative;
+    
+}
+.currentOutput
+{
+    background: #337AB7;
+    border:1px solid #002db3;
+    color: #FFFFFF;
+    height: auto;
+
+}
+#textarea {
+    border:1px solid #CCCCCC;
+}
+
+.lines {
+    float:right;
+    margin-left:20px;
+    position:relative;
+}
