@@ -4,7 +4,7 @@ New line in textarea will create a new column in boxes.Boxes are draggable.
 
 ### Demo :
 
-* http://himel31.github.io/vertical-text/
+* http://sabhiml.github.io/vertical-text/
 * http://jsfiddle.net/himel/tqw1Lqjq/8/
 
 ### Installation :
